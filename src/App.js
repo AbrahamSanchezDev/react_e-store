@@ -25,6 +25,7 @@ function App() {
     console.log(id);
     fetcher(PRODUCT_BY_ID + id, setProducts);
   };
+
   const renderCategories = () => {
     return categories.map((d) => (
       <Category
